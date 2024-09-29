@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Usa tutta la viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./images/background.jpg");
+    background-position: center; /* Posizione immagine */
+    background-repeat: no-repeat; /* Non si ripete nel caso l'immagine sia più piccola dello schermo */
+    background-size: cover; /* L'immagine di sfondo copre sempre tutto lo schermo */
+}
+
+/* Aggiungi una media query per gestire risoluzioni più alte o basse */
+@media (max-aspect-ratio: 16/9) {
+    body {
+        background-size: contain;
+        /* Adatta l'immagine per non tagliare nulla */
+        background-position: center top;
+
+        background-color: black;
+        /* Posiziona l'immagine al top */
+    }
+}
+
+footer{
+
+    display: flex;
+
+    justify-content: right;
+
+    align-items: center;
+
+    margin-top: 5vh;
+
+    margin-bottom: -4vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+.testoPresentazione{
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    width: 30vw;
+}
+
+.presentazione {
+    position: relative;
+    white-space: nowrap; /* Mantieni il testo su una sola riga */
+    font-size: 2vw; /* Dimensione del testo basata sulla larghezza della viewport */
+    margin-top: -4vh;
+    color: rgb(200, 140, 255);
+}
+
+.developer_img {
+    display: flex;
+    justify-content: right;
+    width: 30%;
+    margin-right: -7%;
+    margin-left: 1%;
+    margin-top: -5%;
+}
+
+.riquadri {
+    display: flex;
+    justify-content: center;
+    margin-top: 7vh;
+    margin-left: -4%;
+}
+
+.riquadroUnivoco {
+    border-style: solid; /* Bordo a linea continua */
+    height: 32vh;
+    width: 17%;
+    margin-left: 4%;
+    border-width: 3px;
+    border-left: 30%;
+    border-color: white;
+    background-color: black;
+    background: linear-gradient(to bottom, rgba(191, 48, 248, 0.488), rgba(255, 255, 255, 0.338)); /* Sfumatura colore graduale dall'alto verso il basso */
+    
+    border-radius: 15%;
+
+    transition: transform .2s;
+}
+
+.riquadroUnivoco:hover {
+
+    transform: scale(1.1);
+
+}
+
+.descrizione {
+    color: white;
+    font-size: 2.3vh;
+    margin-left: 7%;
+    margin-top: 3%;
+}
+
+
+.logo {
+    border-radius: 100%;
+    margin-left: 37%;
+    margin-top: 5%;
+    width: 30%;
+}
+
+.iMieiProgetti {
+    display: flex;
+    
+    justify-content: center;
+    
+    align-items: flex-start;
+    
+    flex-wrap: wrap; /* Permette agli elementi di andare su più righe se necessario */
+    margin-left: -4%;
+
+    margin-top: -3vh;
+
+}
+
+
