@@ -118,7 +118,7 @@ a {
 
     justify-content: center;
 
-    align-items: flex-start;
+    align-items: center;
 
     flex-wrap: wrap;
     /* Permette agli elementi di andare su più righe se necessario */
