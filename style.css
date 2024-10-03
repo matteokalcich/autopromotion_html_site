@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+/* API GOOGLE PER I FONT */
+
+
+
 body {
     margin: 0;
     padding: 0;
     height: 100vh;
     /* Usa tutta la viewport */
     display: flex;
+    font-family: "EB Garamond", serif; /* font particolare grazie all'api di google */
+
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -27,7 +35,7 @@ footer {
 
     align-items: center;
 
-    margin-top: 5vh;
+    margin-top: 0vh;
 
     margin-bottom: -4vh;
 }
@@ -53,12 +61,18 @@ a {
     white-space: nowrap;
     /* Mantieni il testo su una sola riga */
     font-size: 2vw;
+    font-family: "Barlow", sans-serif;
+    font-weight: 660;
+    font-style: normal;
+
     /* Dimensione del testo basata sulla larghezza della viewport */
     margin-top: -4vh;
     color: rgb(200, 140, 255);
 }
 
 .developer_img {
+
+  
     display: flex;
     justify-content: right;
     width: 30%;
