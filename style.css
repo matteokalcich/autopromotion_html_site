@@ -91,7 +91,7 @@ a {
 .riquadroUnivoco {
     border-style: solid;
     /* Bordo a linea continua */
-    height: 32vh;
+    height: 34vh;
     width: 17%;
     margin-left: 4%;
     border-width: 3px;
@@ -115,8 +115,10 @@ a {
 .descrizione {
     color: white;
     font-size: 2.3vh;
-    margin-left: 7%;
-    margin-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+
+    padding-top: 1%;
 }
 
 
